@@ -1,16 +1,7 @@
-<h1>StaticPages#index</h1>
 
-      <div class="navi">
-        <ul id="navi">
-          <li><a href="#">Home</a></li>
-          <li><a href="about.html.erb">About</a></li>
-          <li><a href="contact.html.erb">Contact</a></li>
-          <li><a href="work.html">Work</a></li>
-          <li><a href="faq.html">FAQ</a></li>
-        </ul>
-      </div><!--end navi-->
+  <%= yield %>
+  
+        <h1><br>Welcome to the Fanshop of Don Vito</h1>
+        <h2>Your source for "the Godfather" Merchandise in Corleone</h2>
+        <%= image_tag("vito.jpg", class: "img-responsive my-image") %>
 
-
-<p>Welcome! The date and time is <%= Time.now %></p>
-<h1>Welcome to Bike Berlin</h1>
-<h2>Your source for used bikes in Berlin</h2>
